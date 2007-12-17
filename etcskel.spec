@@ -9,7 +9,6 @@ Group:		System/Base
 Source:		%{name}-%{version}.tar.bz2
 Requires:	bash
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 The etcskel package is part of the basic Mandriva system.
