@@ -5,7 +5,7 @@ Release:	%mkrel 22
 License:	Public Domain
 Group:		System/Base
 # get the source from our cvs repository (see
-# http://www.linuxmandrake.com/en/cvs.php3)
+# http://cvs.mandriva.com)
 Source:		%{name}-%{version}.tar.bz2
 Requires:	bash
 BuildArch:	noarch
