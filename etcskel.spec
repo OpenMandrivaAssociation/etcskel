@@ -1,7 +1,7 @@
 Summary:	Mandriva Linux default files for new users' home directories
 Name:		etcskel
 Version:	1.63
-Release:	31
+Release:	32
 License:	Public Domain
 Group:		System/Base
 # get the source from our cvs repository (see
