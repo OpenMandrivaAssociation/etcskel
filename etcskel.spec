@@ -1,7 +1,7 @@
 Summary:	Mandriva Linux default files for new users' home directories
 Name:		etcskel
 Version:	1.63
-Release:	32
+Release:	33
 License:	Public Domain
 Group:		System/Base
 # get the source from our cvs repository (see
@@ -22,8 +22,9 @@ in every new user's home directory when new accounts are created.
 
 %install
 %makeinstall_std
+mkdir -p %{buildroot}%{_sysconfdir}/skel/.cache
+chmod 0755 %{buildroot}%{_sysconfdir}/skel/.cache
 
 %files
 %doc ChangeLog
-%config(noreplace) /etc/skel
-
+%config(noreplace) %{_sysconfdir}/skel
