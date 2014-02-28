@@ -1,3 +1,4 @@
----
-sources:
+removed_sources:
   etcskel-1.63.tar.bz2: 07f8c46f7389ba81e6786c7463b8b63163fc03f8
+sources:
+  etcskel-1.63.tar.xz: b20b9799bba83df95beca3828d903c6fe1ef1ae1
