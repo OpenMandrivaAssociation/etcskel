@@ -6,7 +6,7 @@ License:	Public Domain
 Group:		System/Base
 # get the source from our cvs repository (see
 # http://cvs.mandriva.com)
-Source0:	%{name}-%{version}.tar.bz2
+Source0:	%{name}-%{version}.tar.xz
 Source1:	etcskel.rpmlintrc
 BuildArch:	noarch
 Requires:	bash
