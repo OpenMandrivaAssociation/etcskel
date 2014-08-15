@@ -1,7 +1,7 @@
-Summary:	Mandriva Linux default files for new users' home directories
+Summary:	%{distribution} default files for new users' home directories
 Name:		etcskel
 Version:	1.63
-Release:	40
+Release:	41
 License:	Public Domain
 Group:		System/Base
 # get the source from our cvs repository (see
@@ -12,7 +12,7 @@ BuildArch:	noarch
 Requires:	bash
 
 %description
-The etcskel package is part of the basic Mandriva system.
+The etcskel package is part of the basic %{distribution} system.
 
 Etcskel provides the /etc/skel directory's files. These files are then placed
 in every new user's home directory when new accounts are created.
@@ -24,6 +24,9 @@ in every new user's home directory when new accounts are created.
 %makeinstall_std
 mkdir -p %{buildroot}%{_sysconfdir}/skel/.cache
 chmod 0755 %{buildroot}%{_sysconfdir}/skel/.cache
+
+mkdir -p %{buildroot}%{_sysconfdir}/skel/.compose-cache
+chmod 0755 %{buildroot}%{_sysconfdir}/skel/.compose-cache
 
 %files
 %doc ChangeLog
